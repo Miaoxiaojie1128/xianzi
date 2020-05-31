@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>雪梨在线</title>
+    <style type="text/css">
+    body{
+            background-color: #f3f5f7;
+            height: 420px;
+            position: relative;
+            background:rgba(28,3,108,1) url(images/xlzx/background.png) no-repeat center center;
+        }
+    .on{
+            float: left;
+            width: 228px;
+            height: 270px;
+            margin-bottom: 15px;
+            margin-right: 15px;
+            background-color: #FFFFFF;
+            box-shadow:0px 2px 5px 0px rgba(118,118,118,0.5);
+        }
+    .clear::after{content:"";display: block;height:0;clear: both;}
+    .on{
+        width: 1200px;
+        margin: 30px auto;
+    }
+    .onp{
+        float: left;
+        line-height: 100px;
+        vertical-align: middle;
+    }
+    .clear::after{content:"";display: block;height:0;clear: both;}
+    .daohang1{
+            float: left;
+            height: 42px;
+            width: 450px;
+            margin-left: 20px;
+            line-height: 42px;
+    }
+    .clear::after{content:"";display: block;height:0;clear: both;}
+    p{
+        float: left;
+        color: #353535;
+        width: 90px;
+        margin-left: 15px;
+        text-align: center;
+        font-size: 18px;
+    }
+    form{
+        float: left;
+        width: 320px;
+        height: 14px;
+        margin-left: 187px;
+        padding-left: 19px;
+        padding-top: 13px;
+        padding-bottom: 12px;
+        border: 1px solid rgba(0,164,255,1);
+    }
+    .thr{
+        float: left;
+        border-left: 1px solid #bfbfbf;
+        width: 115px;
+        height: 18px;
+        line-height: 18px;
+        margin: 21px auto;
+        }
+    .yi{
+            color: #00A4FF;
+            font-weight:bold;
+        }
+    .two{
+            float: left;
+            width: 115px;
+            height: 18px;
+            line-height: 18px;
+            margin: 21px auto;
+        }
+    .fou{
+            color: #00A4FF;
+            float: right;
+            border: none;
+        }
+    .one{
+        float: left;
+        width: 228px;
+        height: 270px;
+        background-color: #FFFFFF;
+        margin-bottom: 15px;
+        margin-right: 15px;
+        box-shadow:0px 2px 5px 0px rgba(118,118,118,0.5);
+    }
+    .gaoji{
+        font-family:Microsoft YaHei;
+        font-size:12px;
+        color: #FF7C2D;
+        margin-top: 8px;
+        margin-left: 23px;
+    }
+    .left a{
+        float: left;
+        font-family:Microsoft YaHei;
+        font-size:20px;
+        font-weight:400;
+        color:rgba(73,73,73,1);
+        margin-right: 1120px;
+    }
+    .right a{
+        float: right;
+        font-family:Microsoft YaHei;
+        font-size:12px;
+        color:rgba(165,165,165,1);
+        font-weight:400;
+        margin-right: 61px;
+    }
+    .clear::after{content:"";display: block;height:0;clear: both;}
+    .footer{
+            background:rgba(255,255,255,1);
+            position: relative;
+            margin-top: 1250px;
+            height:417px;
+        }
+        .bottom{
+            position: relative;
+            width: 1200px;
+            margin:0 auto;
+        }
+        .footer1{
+            position: absolute;
+            font-family:Microsoft YaHei;
+            color:rgba(0,164,255,1);
+            font-size:36px;
+            font-weight:bold;
+            top: 124px;
+            left: 5px;
+            line-height:21px;
+        }
+        .footer2{
+            position: absolute;
+            font-family:Microsoft YaHei;
+            color:rgba(102,102,102,1);
+            font-size:12px;
+            font-weight:400;
+            top: 195px;
+            left: 5px;
+            line-height:18px;
+        }
+        .footer3{
+            position: absolute;
+            font-family:Microsoft YaHei;
+            color:rgba(0,164,255,1);
+            font-size:16px;
+            font-weight:400;
+            top: 251px;
+            left: 5px;
+            line-height:18px;
+            border: 1px solid #00A4FF;
+            padding: 11px 30px 10px 27px;
+        }
+        .footer4{
+            position: absolute;
+            font-family:Microsoft YaHei;
+            color:rgba(51,51,51,1);
+            font-size:16px;
+            font-weight:400;
+            top: 130px;
+            left: 650px;
+            line-height:21px;
+        }
+        .footer5{
+            position: absolute;
+            top: 130px;
+            left: 896px;
+            font-size:16px;
+            font-family:Microsoft YaHei;
+            font-weight:400;
+            color:rgba(51,51,51,1);
+            line-height:21px;
+        }
+        .footer6{
+            position: absolute;
+            top: 130px;
+            right: 28px;
+            font-size:16px;
+            font-family:Microsoft YaHei;
+            font-weight:400;
+            color:rgba(51,51,51,1);
+            line-height:21px;
+        }
+        .l1{
+            position: absolute;
+            top: 161px;
+            left: 650px;
+            font-size:12px;
+            font-family:SimSun;
+            font-weight:400;
+            color:rgba(51,51,51,1);
+            line-height:21px;
+        }
+        .l2{
+            position: absolute;
+            top: 161px;
+            left: 896px;
+            font-size:12px;
+            font-family:SimSun;
+            font-weight:400;
+            color:rgba(51,51,51,1);
+            line-height:21px;
+        }
+        .l3{
+            position: absolute;
+            top: 161px;
+            right: 43px;
+            font-size:12px;
+            font-family:SimSun;
+            font-weight:400;
+            color:rgba(51,51,51,1);
+            line-height:21px;
+        }
+    </style>
+</head>
+<body> 
+    <div class="on">
+        <img class="onp" src="P.png" alt="雪梨在线">
+        <div class="daohang1">
+            <p>
+                <a href="#">首页</a>
+                <a href="#">课程</a>
+                <a href="#">职业规划</a>
+            </p>
+        </div>
+    </div>
+    <form>
+        <input type="text" name="search" placeholder="输入关键词"/>
+    </form>
+    <div class="daohanger">
+        <a href="">个人中心</a>
+    </div>
+   <div class="biankuang">
+        <ul class="sidebar-a clear">
+            <li><a href="">前端开发<span>></span></a></li>
+            <li><a href="">后端开发<span>></span></a></li>
+            <li><a href="">移动开发<span>></span></a></li>
+            <li><a href="">人工智能<span>></span></a></li>
+            <li><a href="">商业预测<span>></span></a></li>
+            <li><a href="">云计算&大数据<span>></span></a></li>
+            <li><a href="">运维&从测试<span>></span></a></li>
+            <li><a href="">UI设计<span>></span></a></li>
+            <li><a href="">产品<span>></span></a></li>
+        </ul>
+    </div>
+    <div class="daohang3">
+        <div class="yi"><a href="#">精品推荐</a></div>
+        <div class="two"><a href="#">JQuery</a></div>
+        <div class="thr"><a href="#">Spark</a></div>
+        <div class="thr"><a href="#">MySQL</a></div>
+        <div class="thr"><a href="#">JavaWeb</a></div>
+        <div class="thr"><a href="#">MySQL</a></div>
+        <div class="thr"><a href="#">JavaWeb</a></div>
+        <div class="for"><a href="#">修改兴趣</a></div>
+    </div>
+    <div class="left"><a href="">精品推荐</a></div>
+    <div class="right"><a href="">查看全部</a></div>
+    <dix id="one">
+        <a href="">
+            <img src="I.png" alt="Think PHP 5.0 博客系统实战项目演练">
+            <h5>Think PHP 5.0 博客系统实战项目演练</h5>
+            <div class="gaiji">高级<div>•&nbsp;&nbsp;&nbsp;1125人在学习</div></div>
+        </a>
+        <a href="">
+            <img src="J.png" alt="网络图片加载框架详解">
+            <h5>Android 网络图片加载框架详解</h5>
+            <div class="gaiji">高级<div>•&nbsp;&nbsp;&nbsp;1125人在学习</div></div>
+        </a>
+        <a href="">
+            <img src="Q.png" alt="img">
+            <h5>Angular 2 最新框架+主流技术+项目实战</h5>
+            <div class="gaiji">高级<div>•&nbsp;&nbsp;&nbsp;1125人在学习</div></div>
+        </a>
+        <a href="">
+            <img src="H.png" alt="Android Hybrid APP开发实战 H5+原生">
+            <h5>Android Hybrid APP开发实战 H5+原生！</h5>
+            <div class="gaiji">高级<div>•&nbsp;&nbsp;&nbsp;1125人在学习</div></div>
+        </a>
+        <a href="">
+            <img src="H.png" alt="Android Hybrid APP开发实战 H5+原生">
+            <h5>Android Hybrid APP开发实战 H5+原生！</h5>
+            <div class="gaiji">高级<div>•&nbsp;&nbsp;&nbsp;1125人在学习</div></div>
+        </a>
+        <a href="">
+            <img src="I.png" alt="Think PHP 5.0 博客系统实战项目演练">
+            <h5>Think PHP 5.0 博客系统实战项目演练</h5>
+            <div class="gaiji">高级<div>•&nbsp;&nbsp;&nbsp;1125人在学习</div></div>
+        </a>
+        <a href="">
+            <img src="J.png" alt="网络图片加载框架详解">
+            <h5>Android 网络图片加载框架详解</h5>
+            <div class="gaiji">高级<div>•&nbsp;&nbsp;&nbsp;1125人在学习</div></div>
+        </a>
+        <a href="">
+            <img src="Q.png" alt="img">
+            <h5>Angular 2 最新框架+主流技术+项目实战</h5>
+            <div class="gaiji">高级<div>•&nbsp;&nbsp;&nbsp;1125人在学习</div></div>
+        </a>
+        <a href="">
+            <img src="H.png" alt="Android Hybrid APP开发实战 H5+原生">
+            <h5>Android Hybrid APP开发实战 H5+原生！</h5>
+            <div class="gaiji">高级<div>•&nbsp;&nbsp;&nbsp;1125人在学习</div></div>
+        </a>
+        <a href="">
+            <img src="H.png" alt="Android Hybrid APP开发实战 H5+原生">
+            <h5>Android Hybrid APP开发实战 H5+原生！</h5>
+            <div class="gaiji">高级<div>•&nbsp;&nbsp;&nbsp;1125人在学习</div></div>
+        </a>
+        <div class="left"><a href="">前端开发工程师</a></div>
+        <ul>
+            <li><a href="">热门</a></li>
+            <li><a href="">初级</a></li>
+            <li><a href="">中级</a></li>
+            <li><a href="">高级</a></li>
+        </ul>
+        <div class="right"><a href="">查看全部</a></div>
+        <a href="">
+            <img src="F.png" alt="微软人工智能-数据分析平台">
+            <h5>微软人工智能-数据分析平台</h5>
+            <div class="gaoji">高级<div>•&nbsp;&nbsp;&nbsp;1125人在学习</div></div>
+        </a>
+        <a href="">
+            <img src="G.png" alt="Unity Profiler入门">
+            <h5>Unity Profiler入门</h5>
+            <div class="gaoji">高级<div>•&nbsp;&nbsp;&nbsp;1125人在学习</div></div>
+        </a>
+        <a href="">
+            <img src="O.png" alt="Cocos2d-x 引擎源码中的纹理优化">
+            <h5>Cocos2d-x 引擎源码中的纹理优化</h5>
+            <div class="gaoji">高级<div>•&nbsp;&nbsp;&nbsp;1125人在学习</div></div>
+        </a>
+        <a href="">
+            <img src="E.png" alt="Kami2首页界面切换效果">
+            <h5>Kami2首页界面切换效果</h5>
+            <div class="gaiji">高级<div>•&nbsp;&nbsp;&nbsp;1125人在学习</div></div>
+        </a>
+        <a href="">
+            <img src="D.png" alt="Android Hybrid APP开发实战 H5+原生">
+            <h5>Android Hybrid APP开发实战 H5+原生！</h5>
+            <div class="gaoji">高级<div>•&nbsp;&nbsp;&nbsp;1125人在学习</div></div>
+        </a>
+    </dix>
+    <div class="left"><a href="">牛人推荐</a></div>
+        <div class="">
+            <img src="B.png" alt="毕业季">
+            <span class="biyeji">毕业季</span>
+            <span class="zhuanshen">带你华丽转身</span>
+            <span class="dianji"><a href="#">点击查看</a></span>
+        </div>
+        <div>
+            <img src="L.png" alt="闻老师">
+            <div class="possition">
+                <span class="name">闻老师</span>
+                <span class="course">大数据</span>
+                <span class="text">高级互联网软件工程师，曾担任某物流公司CRM开发团队TL。多年JAVAEE、大数据领域研发……</span>
+            </div>
+            <img src="K.png" alt="汪老师">
+            <div class="possition">
+                <span class="name">汪老师</span>
+                <span class="course">前端</span>
+                <span class="text">高级软件架构师，全栈开发，多年大型项目管理经验。对Web Components、Node.js……</span>
+            </div>
+            <img src="M.png" alt="汪老师">
+            <div class="possition">
+                <span class="name">江老师</span>
+                <span class="course">前端</span>
+                <span class="text">多年软件开发经验和教学经验，精通html，css，js,asp.net等编程语言和数据库系统……</span>
+            </div>
+        </div>
+    <div class="footer">
+        <div class="bottom">
+            <span class="footer1">雪梨在线</span>
+            <span class="footer2">致力于普及中国最好的教育,与中国一流大学和机构合作提供在线课程。</span>
+            <span class="footer3"><a href="#">下载APP</a></span>
+            <span class="footer4">关于雪梨网</span>
+            <ul class="l1">
+                <li><a href="">关于</a></li>
+                <li><a href="">管理团队</a></li>
+                <li><a href="">工作机会</a></li>
+                <li><a href="">客户服务</a></li>
+                <li><a href="">帮助</a></li>
+            </ul>
+            <span class="footer5">新手指南</span>
+            <ul class="l2">
+                <li><a href="">如何注册</a></li>
+                <li><a href="">如何选课</a></li>
+                <li><a href="">如何拿到毕业证</a></li>
+                <li><a href="">学分是什么</a></li>
+                <li><a href="">考试未通过怎么办</a></li>
+            </ul>
+            <span class="footer6">合作伙伴</span>
+            <ul class="l3">
+                <li><a href="">合作机构</a></li>
+                <li><a href="">合作导师</a></li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
